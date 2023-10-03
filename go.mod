@@ -1,9 +1,10 @@
-module vanity-age
+module github.com/yawning/vanity-age
 
 go 1.21
 
 require (
 	filippo.io/age v1.1.1
+	filippo.io/edwards25519 v1.0.0
 	github.com/danwakefield/fnmatch v0.0.0-20160403171240-cbb64ac3d964
 )
 
